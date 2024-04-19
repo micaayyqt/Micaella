@@ -1,9 +1,83 @@
 <html>
-<head><title></title></head>
-<body>
-<center>
-<h1>WELCOME TO MICAELLA'S WEBSITE!</h1>
-<img src="micaayy.jpg" height = "500" width="400">
-</center>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body style="font-family:Verdana;">
+
+<div style="background-color:#f1f1f1;padding:15px;">
+  <h1>WELCOME TO MICAELLA'S WEBSITE!</h1>
+  <h3>BSIS2A</h3>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <div class="menuitem">About</div>
+    <div class="menuitem">Photos</div>
+    <div class="menuitem">More Photos</div>
+  </div>
+
+  <div class="main">
+    <h2>BSIS-2A</h2>
+    <p>The number one benefit of information system is that it empowers people to do what they want to do. It lets people be creative. It lets people be productive. It lets people learn things they didn't think they could learn before, and so in a sense it is all about potential.</p>
+    <img src="bsis.jpg" style="width:100%">
+  </div>
+
+  <div class="right">
+    <h2>About</h2>
+    <p>Micaella Pineda Millos, BSIS-2A</p>
+    <h2>Where?</h2>
+    <p>at Santa Rita College of  Pampanga</p>
+    <h2>Who?</h2>
+    <p>Computer Studies College Department</p>
+  </div>
+</div>
+
+
+<div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;"> Find a group of people who challenge and inspire you; spend a lot of time with them, and it will change your life.</div>
+
 </body>
 </html>
